@@ -4,7 +4,7 @@ services:
     image: ski-image
     restart: always
     ports:
-      - 8082:8082
+      - 4000:4000
     depends_on:
       - mysqldb
 
